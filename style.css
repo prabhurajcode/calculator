@@ -1,43 +1,36 @@
-*{
-    margin  : 0;
-    padding : 0;
-    background-color:  #e0f7fa;
-    box-sizing : border-box;
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    box-sizing: border-box;
     outline: none;
-    
 }
 
-
-.container{
+.container {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.calculator{
-    background-color: antiquewhite;
+.calculator {
+    background-color: #f5f5f5; /* Light gray background */
     padding: 15px;
     border-radius: 30px;
-    box-shadow: inset 5px 5px 12px #ffffff,
-                      5px 5px 12px rgba(0,0,0, .16);
-    display: grid;    
-    grid-template-columns: repeat(4,68px);              
-
-
-
+    box-shadow: inset 5px 5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, .16);
+    display: grid;
+    grid-template-columns: repeat(4, 68px);
 }
 
-input{
+input {
     grid-column: span 4;
     height: 70px;
     width: 260px;
-    background-color: antiquewhite;
-    box-shadow: inset -5px -5px 12px #ffffff,
-                      5px 5px 12px rgba(0,0,0, .16);
+    background-color: #ffffff; /* White background */
+    box-shadow: inset -5px -5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, .16);
     border: none;
     border-radius: 30px;
-    color: rgb(70, 70,70);
+    color: #333333; /* Dark gray text color */
     font-size: 50px;
     text-align: end;
     margin: auto;
@@ -49,29 +42,25 @@ input{
 button {
     height: 48px;
     width: 48px;
-    background-color: antiquewhite;
-    box-shadow: -5px -5px 12px #ffffff,
-                       5px 5px 12px rgba(0,0,0, .16);
-
-    border: none;      
+    background-color: #ffffff; /* White background */
+    box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, .16);
+    border: none;
     border-radius: 50%;
-    margin: 8px;   
-    font-size: 18px;          
+    margin: 8px;
+    font-size: 18px;
+    color: #333333; /* Dark gray text color */
+}
 
-
-} 
-
-.equal{
+.equal {
     width: 115px;
     border-radius: 50%;
-    background-color: antiquewhite;
-    box-shadow: -5px -5px 12px #ffffff,
-                       5px 5px 12px rgba(0,0,0, .16);
-
+    background-color: #ffffff; /* White background */
+    box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, .16);
 }
 
 h1, p {
     text-align: center;
     margin: 10px;
-    gap:2rem;
+    gap: 2rem;
+    color: #333333; /* Dark gray text color */
 }

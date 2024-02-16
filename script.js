@@ -38,6 +38,13 @@ function display(num) {
 }
 
 function calculate() {
+
+   // Check if the input field is empty
+   if (result.value.trim() === "") {
+    alert("Please enter an expression.");
+    return; // Exit the function if the input is empty
+}
+
   try {
     result.value = eval(result.value);
   } catch (err) {
